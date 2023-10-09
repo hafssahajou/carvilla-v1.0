@@ -1,0 +1,44 @@
+/* styles.css */
+
+/* Styles pour le header */
+header {
+    background-image: url('background.jpg');
+    background-size: cover;
+    text-align: center;
+    color: white;
+    padding: 100px;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+/* Styles pour la navigation */
+nav {
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Styles pour le footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}

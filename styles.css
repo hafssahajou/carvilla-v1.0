@@ -1,0 +1,48 @@
+*{
+   margin: 0;
+   border: 0;
+   box-sizing: border-box; 
+}
+html{
+    font-size: 62,5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 9px;
+
+}
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #ccc;
+
+}
+body {
+    background-color: #111;
+}
+section{
+    margin-top: 50 px;
+}
+header{
+    background-color: #222;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    padding: 0 5%;
+}
+.menu {
+    display: flex;
+    align-items: center;
+}
+.menu li {
+    margin: 0 15px;
+    list-style-type: none;
+}
+.menu li a {
+    color: #111;
+    font-size: 14px;
+}
